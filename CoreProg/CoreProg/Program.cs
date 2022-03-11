@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿/*-------------------------------------------------COIN FLIP-----------------------------------------------------------------------
 Console.WriteLine("Flip the Coin");
 const int ishead = 1;
 const int istail = 2;
@@ -19,4 +19,19 @@ if (isCoinFlip == 1)
 else
 {
     Console.WriteLine("It is Tail");
+}
+
+------------------------------------------------------~~~~~~~~--------------------------------------------------------------------*/
+
+/*--------------------------------------------------------LEAP YEAR------------------------------------------------------------------*/
+
+Console.WriteLine("Enter The Year : ");
+int year = int.Parse(Console.ReadLine());
+if ((year %4 == 0) && (year %100 != 0) || (year % 400 == 0))
+{
+    Console.WriteLine("It is leap year");
+}
+else
+{
+    Console.WriteLine("It is not leap year");
 }
